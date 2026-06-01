@@ -16,7 +16,8 @@ coverage.json
 .vs/
 .DS_Store
 
-# Python (gerador de PDF)
+# Python (gerador de PDF — não versionado)
+gerar_pdf.py
 __pycache__/
 *.pyc
 
