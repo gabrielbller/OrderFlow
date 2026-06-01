@@ -1,7 +1,7 @@
 # OrderFlow — Sistema de Gestão de Pedidos de E-commerce
 
 Projeto de Disciplina — **Tecnologia .NET** (Pós-Graduação)
-Autor: **Gabriel Bller**
+Autor: **Gabriel Bodenmuller**
 
 Aplicação de domínio modelada com **Domain-Driven Design (DDD)**, implementada em **C#** com
 foco em **Orientação a Objetos**, princípios **SOLID/GRASP** e **testes unitários** com cobertura
@@ -61,7 +61,7 @@ Resultado atual:
 ```
 OrderFlow/
 ├── OrderFlow.sln
-├── GabrielBller_TecnologiaNET_pd.pdf   # Documento explicativo (entrega)
+├── GabrielBodenmuller_TecnologiaNET_pd.pdf   # Documento explicativo (entrega)
 ├── src/
 │   ├── Domain/            # Núcleo do domínio (DDD) — alvo dos testes de cobertura
 │   ├── Application/       # Casos de uso / orquestração (GRASP Controller)
@@ -90,7 +90,7 @@ O domínio está organizado em **4 Bounded Contexts**: `Customer`, `Inventory`,
 | **Domain Services** | [OrderDomainService.cs](src/Domain/OrderManagement/Services/OrderDomainService.cs), [InventoryDomainService.cs](src/Domain/Inventory/Services/InventoryDomainService.cs) |
 | **Factory** (diferenciada de Domain Service) | [OrderFactory.cs](src/Domain/OrderManagement/Factories/OrderFactory.cs) — cabeçalho explica a diferença Factory × Domain Service |
 | **Anti-Corruption Layer** | [PaymentServiceAdapter.cs](src/Infrastructure/AntiCorruptionLayer/PaymentServiceAdapter.cs) + [ExternalPaymentDto.cs](src/Infrastructure/AntiCorruptionLayer/ExternalPaymentDto.cs) |
-| **Context Map** | Diagrama e descrição no [PDF](GabrielBller_TecnologiaNET_pd.pdf) |
+| **Context Map** | Diagrama e descrição no [PDF](GabrielBodenmuller_TecnologiaNET_pd.pdf) |
 
 ### Parte 2 — Orientação a Objetos com C#
 
