@@ -1,0 +1,27 @@
+# Build artifacts
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+
+# Test / coverage
+TestResults/
+coverage.cobertura.xml
+coverage.json
+*.coverage
+
+# Rider / IDE
+.idea/
+*.user
+.vs/
+.DS_Store
+
+# Python (gerador de PDF)
+__pycache__/
+*.pyc
+
+# LaTeX (gerador antigo — descontinuado)
+*.aux
+*.log
+*.toc
+*.out

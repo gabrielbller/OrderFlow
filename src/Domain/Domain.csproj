@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Domain</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- Permite que Domain.Tests acesse construtores internal (Order, OrderItem) -->
+    <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleToAttribute">
+      <_Parameter1>Domain.Tests</_Parameter1>
+    </AssemblyAttribute>
+  </ItemGroup>
+</Project>
